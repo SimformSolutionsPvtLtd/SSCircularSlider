@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSCircularSlider"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "A simple, powerful and fully customizable circular ring slider, written in swift."
 
   #s.description  = "A simple, powerful and fully customizable circular ring slider, written in swift."
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/simformsolutions/SSCircularSlider.git", :tag => "#{s.version}" }
 
-  s.source_files  = 'SSCircularSlider/SSCircularRingSlider/*'
+  s.source_files  = 'SSCircularSlider/SSCircularRingSlider/**/*.*'
   s.documentation_url = 'docs/index.html'
 
 end
