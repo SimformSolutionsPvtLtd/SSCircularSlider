@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/simformsolutions/SSCircularSlider"
 
 
-  #s.license      = "MIT (example)"
+  s.license      = "MIT (example)"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Ketan Chopda" => "Ketan.C@simformsolutions.com" }
@@ -28,8 +28,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/simformsolutions/SSCircularSlider.git", :tag => "#{s.version}" }
 
-  s.source_files  = 'SSCircularSlider/SSCircularRingSlider/**/*.*'
-  s.resources = ['SSCircularSlider/SSCircularRingSlider/Media.xcassets']
+  s.source_files  = 'SSCircularSlider/SSCircularRingSlider/**/*.{h,m,swift}'
+  s.resources = ['SSCircularSlider/SSCircularRingSlider/Media/Media.xcassets']
+  s.resource_bundles = { 'SSCircularSlider' => [ 'SSCircularSlider/SSCircularRingSlider/Media/Media.xcassets'] }
   s.documentation_url = 'docs/index.html'
 
 end

@@ -30,9 +30,9 @@ open class SSCircularRingSlider: UIView {
     }
     var outerRingWidth: CGFloat = 10
     var innerRingWidth: CGFloat = 10
-    var knonbImage = UIImage(named: "iconKnobRed")
-    var startPointImage = UIImage(named: "iconMinusRed")
-    var endPointImage = UIImage(named: "iconPlusRed")
+    var knonbImage: UIImage?
+    var startPointImage: UIImage?
+    var endPointImage: UIImage?
     var labelFont = UIFont.boldSystemFont(ofSize: 40)
     var gradientColors: [CGColor] = [UIColor.red.cgColor, UIColor.red.cgColor] {
         didSet {
@@ -131,6 +131,12 @@ open class SSCircularRingSlider: UIView {
     
     /// Initial setup of ring slider
     fileprivate func initialSetUp() {
+
+        let bundle = Bundle(for: self.classForCoder)
+        knonbImage = UIImage(named: "iconKnobRed", in: bundle, compatibleWith: nil)
+        startPointImage = UIImage(named: "iconMinusRed", in: bundle, compatibleWith: nil)
+        endPointImage = UIImage(named: "iconPlusRed", in: bundle, compatibleWith: nil)
+        
         width = bounds.width - max(innerRingWidth, outerRingWidth)
         height = bounds.height - max(innerRingWidth, outerRingWidth)
         

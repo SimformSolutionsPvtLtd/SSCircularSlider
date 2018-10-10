@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7323B5C7216E3A800033DDAE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7323B5C6216E3A800033DDAE /* Media.xcassets */; };
+		7323B5CA216E3FAC0033DDAE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7323B5C9216E3FAC0033DDAE /* Media.xcassets */; };
 		7350B6D0216C7E3F004C4B89 /* .tailor.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7350B6CF216C7E3F004C4B89 /* .tailor.yml */; };
 		8C6285AC2163A1C10099BC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6285AB2163A1C10099BC1D /* AppDelegate.swift */; };
 		8C6285AE2163A1C10099BC1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6285AD2163A1C10099BC1D /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7323B5C6216E3A800033DDAE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		7323B5C9216E3FAC0033DDAE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		7350B6CF216C7E3F004C4B89 /* .tailor.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .tailor.yml; sourceTree = "<group>"; };
 		8C6285A82163A1C10099BC1D /* SSCircularSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCircularSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6285AB2163A1C10099BC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7323B5C8216E3FAC0033DDAE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				7323B5C9216E3FAC0033DDAE /* Media.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		7350B6CB216C6C9C004C4B89 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +95,7 @@
 			children = (
 				8C6285BE2163A1F40099BC1D /* SSCircularRingSlider.swift */,
 				8C6285C42163A46D0099BC1D /* Extentions.swift */,
-				7323B5C6216E3A800033DDAE /* Media.xcassets */,
+				7323B5C8216E3FAC0033DDAE /* Media */,
 			);
 			path = SSCircularRingSlider;
 			sourceTree = "<group>";
@@ -151,8 +159,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7323B5CA216E3FAC0033DDAE /* Media.xcassets in Resources */,
 				7350B6D0216C7E3F004C4B89 /* .tailor.yml in Resources */,
-				7323B5C7216E3A800033DDAE /* Media.xcassets in Resources */,
 				8C6285B62163A1C20099BC1D /* LaunchScreen.storyboard in Resources */,
 				8C6285B32163A1C20099BC1D /* Assets.xcassets in Resources */,
 				8C6285B12163A1C10099BC1D /* Main.storyboard in Resources */,
