@@ -43,7 +43,7 @@ A simple and powerful circular ring slider, written in swift and fully customiza
 # Usage example
 
 -   In the storyboard add a UIView and change its class to SSCircularSlider
--   ![Alt text](https://github.com/simformsolutions/SSCircularSlider/blob/master/CircularRingSiderStoryBoard.png)
+   ![Alt text](https://github.com/simformsolutions/SSCircularSlider/blob/master/CircularRingSiderStoryBoard.png)
    
     **SetValues**
         
