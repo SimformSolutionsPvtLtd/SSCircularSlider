@@ -33,7 +33,7 @@ open class SSCircularRingSlider: UIView {
     var knonbImage = UIImage(named: "iconKnobRed")
     var startPointImage = UIImage(named: "iconMinusRed")
     var endPointImage = UIImage(named: "iconPlusRed")
-    var labelFont = UIFont.boldSystemFont(ofSize: 23)
+    var labelFont = UIFont.boldSystemFont(ofSize: 40)
     var gradientColors: [CGColor] = [UIColor.red.cgColor, UIColor.red.cgColor] {
         didSet {
             if gradientColors.count < 2 {
