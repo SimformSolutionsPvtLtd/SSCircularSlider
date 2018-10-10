@@ -9,7 +9,7 @@ A simple and powerful circular ring slider, written in swift and fully customiza
 [![Platform][platform-image]][platform-url]
 [![PRs Welcome][PR-image]][PR-url]
 
-![Alt text](https://github.com/simformsolutions/SSCircularSlider/blob/master/CircularRingSiderStoryBoard.png)
+![Alt text](https://github.com/simformsolutions/SSCircularSlider/blob/master/CircularSliderDemo.gif)
 
 # Features!
   - Circular ring slider
