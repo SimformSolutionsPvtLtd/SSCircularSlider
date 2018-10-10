@@ -66,8 +66,7 @@ A simple and powerful circular ring slider, written in swift and fully customiza
     
     **SetRingWidth**
         
-        circularRingSlider.outerRingWidth = 18
-        circularRingSlider.innerRingWidth = 18
+        circularRingSlider.setCircularRingWidth(innerRingWidth: 18, outerRingWidth: 18)
         
     **SetBackgroundColorOfAllButtons**
     
@@ -80,6 +79,15 @@ A simple and powerful circular ring slider, written in swift and fully customiza
     **SetProgressLayerColor**
         
         circularRingSlider.setProgressLayerColor(colors: [UIColor.red.cgColor, UIColor.red.cgColor])
+        
+    **SetCircularSliderDelegate**
+        
+        extension ViewController: SSCircularRingSliderDelegate {
+            func controlValueUpdated(value: Int) {
+                print("current control value:\(value)")
+                // Your code here
+            }
+        }
 
 #  Contribute
 -   We would love you for the contribution to SSCircularSlider, check the LICENSE file for more info.
