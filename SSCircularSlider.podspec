@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'SSCircularSlider/SSCircularSlider/**/*.swift'
+  s.source_files  = "SSCircularSlider/SSCircularSlider/**/*.swift"
   s.documentation_url = 'docs/index.html'
 
 end

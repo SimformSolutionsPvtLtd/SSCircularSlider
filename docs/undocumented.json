@@ -1,6 +1,579 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 32,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": null,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": null,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 14,
+      "symbol": "ViewController.circularRingSlider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 17,
+      "symbol": "ViewController.arrValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 19,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 27,
+      "symbol": "ViewController.setCircularRingSliderColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 55,
+      "symbol": "ViewController.controlValueUpdated(value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/Example/ViewController.swift",
+      "line": 64,
+      "symbol": "ViewController.textFieldDidEndEditing(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 18,
+      "symbol": "UITextField.addDoneButtonOnKeyboard()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 32,
+      "symbol": "UITextField.doneButtonAction()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 41,
+      "symbol": "CAGradientLayer.removeIfAdded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 52,
+      "symbol": "CAShapeLayer.setBorder(color:borderWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 57,
+      "symbol": "CAShapeLayer.setShadow(color:opacity:offset:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 64,
+      "symbol": "CAShapeLayer.removeIfAdded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 75,
+      "symbol": "UIView.setShadow(color:opacity:offset:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 82,
+      "symbol": "UIView.getGradientLayerOf(frame:colors:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 90,
+      "symbol": "UIView.removeIfAdded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 101,
+      "symbol": "Int.toCGFloat()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 109,
+      "symbol": "BinaryInteger.toRadians",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 114,
+      "symbol": "FloatingPoint.toRadians",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/Extentions.swift",
+      "line": 115,
+      "symbol": "FloatingPoint.toDegree",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": null,
+      "symbol": "SSCircularRingSlider",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 11,
+      "symbol": "SSCircularRingSliderDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 12,
+      "symbol": "SSCircularRingSliderDelegate.controlValueUpdated(value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 15,
+      "symbol": "SSCircularRingSlider",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 19,
+      "symbol": "SSCircularRingSlider.startAngle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 20,
+      "symbol": "SSCircularRingSlider.endAngle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 21,
+      "symbol": "SSCircularRingSlider.minValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 22,
+      "symbol": "SSCircularRingSlider.maxValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 23,
+      "symbol": "SSCircularRingSlider.initialValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 31,
+      "symbol": "SSCircularRingSlider.outerRingWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 32,
+      "symbol": "SSCircularRingSlider.innerRingWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 33,
+      "symbol": "SSCircularRingSlider.knonbImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 34,
+      "symbol": "SSCircularRingSlider.startPointImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 35,
+      "symbol": "SSCircularRingSlider.endPointImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 36,
+      "symbol": "SSCircularRingSlider.labelFont",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 37,
+      "symbol": "SSCircularRingSlider.gradientColors",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 44,
+      "symbol": "SSCircularRingSlider.shouldAddEndPoints",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 45,
+      "symbol": "SSCircularRingSlider.shouldShowKnob",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 46,
+      "symbol": "SSCircularRingSlider.knobSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 47,
+      "symbol": "SSCircularRingSlider.shouldAddTextLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 48,
+      "symbol": "SSCircularRingSlider.extraOffsetOfRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 49,
+      "symbol": "SSCircularRingSlider.arrLabelValues",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 50,
+      "symbol": "SSCircularRingSlider.currentIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 51,
+      "symbol": "SSCircularRingSlider.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 55,
+      "symbol": "SSCircularRingSlider.midViewX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 56,
+      "symbol": "SSCircularRingSlider.midViewY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 58,
+      "symbol": "SSCircularRingSlider.innerCircularRing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 59,
+      "symbol": "SSCircularRingSlider.outerCircularRing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 61,
+      "symbol": "SSCircularRingSlider.knobImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 62,
+      "symbol": "SSCircularRingSlider.startPointButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 63,
+      "symbol": "SSCircularRingSlider.endPointButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 65,
+      "symbol": "SSCircularRingSlider.innerRingShape",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 66,
+      "symbol": "SSCircularRingSlider.outerRingShape",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 67,
+      "symbol": "SSCircularRingSlider.txtValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 78,
+      "symbol": "SSCircularRingSlider.startAngleRadian",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 79,
+      "symbol": "SSCircularRingSlider.endAngleRadian",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 80,
+      "symbol": "SSCircularRingSlider.knobStartingAngleRadian",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 81,
+      "symbol": "SSCircularRingSlider.valueRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 82,
+      "symbol": "SSCircularRingSlider.angleRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 83,
+      "symbol": "SSCircularRingSlider.valuePerAngle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 84,
+      "symbol": "SSCircularRingSlider.anglePerValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 85,
+      "symbol": "SSCircularRingSlider.currentValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 87,
+      "symbol": "SSCircularRingSlider.width",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 88,
+      "symbol": "SSCircularRingSlider.height",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 89,
+      "symbol": "SSCircularRingSlider.centerPoint",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 90,
+      "symbol": "SSCircularRingSlider.circularRingRadius",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 91,
+      "symbol": "SSCircularRingSlider.gradientLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 93,
+      "symbol": "SSCircularRingSlider.innerCircleColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 94,
+      "symbol": "SSCircularRingSlider.outerCircleColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 96,
+      "symbol": "SSCircularRingSlider.draw(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 103,
+      "symbol": "SSCircularRingSlider.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ketan.chopda/SSCircularSlider/SSCircularSlider/SSCircularRingSlider/SSCircularRingSlider.swift",
+      "line": 107,
+      "symbol": "SSCircularRingSlider.init(frame:startAngle:endAngle:initialValue:minValue:maxValue:outerRingWidth:innerRingWidth:shouldAddEndPoints:knobImageName:startPointImageName:endPointImageName:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
   ],
-  "source_directory": "/Users/ketan.chopda/SSCircularSlider"
+  "source_directory": "/Users/ketan.chopda"
 }
