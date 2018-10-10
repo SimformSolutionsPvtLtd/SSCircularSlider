@@ -28,16 +28,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/simformsolutions/SSCircularSlider.git", :tag => "#{s.version}" }
 
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "SSCircularSlider/SSCircularSlider/**/*.swift"
+   s.source_files  = 'SSCircularSlider/*'
   s.documentation_url = 'docs/index.html'
 
 end
