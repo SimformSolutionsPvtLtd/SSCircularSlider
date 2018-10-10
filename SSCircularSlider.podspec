@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SSCircularSlider"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A simple, powerful and fully customizable circular ring slider, written in swift."
 
   #s.description  = "A simple, powerful and fully customizable circular ring slider, written in swift."
