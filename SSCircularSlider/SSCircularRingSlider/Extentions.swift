@@ -98,7 +98,7 @@ extension UIView {
 // MARK: - Integer extension
 extension Int {
     
-    func toCGFloat() -> CGFloat {
+    public func toCGFloat() -> CGFloat {
         return CGFloat(self)
     }
     
@@ -106,11 +106,11 @@ extension Int {
 
 // MARK: - binary integer extension
 extension BinaryInteger {
-    var toRadians: CGFloat { return CGFloat(Int(self)) * .pi / 180 }
+    public var toRadians: CGFloat { return CGFloat(Int(self)) * .pi / 180 }
 }
 
 // MARK: - Floating point extension
 extension FloatingPoint {
-    var toRadians: Self { return self * .pi / 180 }
-    var toDegree: Self { return self * 180 / .pi }
+    public var toRadians: Self { return self * .pi / 180 }
+    public var toDegree: Self { return self * 180 / .pi }
 }

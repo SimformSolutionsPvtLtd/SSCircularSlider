@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7350B6D0216C7E3F004C4B89 /* .tailor.yml in Resources */ = {isa = PBXBuildFile; fileRef = 7350B6CF216C7E3F004C4B89 /* .tailor.yml */; };
+		73CE0158216E22610088D8EE /* iconKnobRed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73CE0155216E22610088D8EE /* iconKnobRed.pdf */; };
+		73CE0159216E22610088D8EE /* iconMinusRed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73CE0156216E22610088D8EE /* iconMinusRed.pdf */; };
+		73CE015A216E22610088D8EE /* iconPlusRed.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 73CE0157216E22610088D8EE /* iconPlusRed.pdf */; };
 		8C6285AC2163A1C10099BC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6285AB2163A1C10099BC1D /* AppDelegate.swift */; };
 		8C6285AE2163A1C10099BC1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6285AD2163A1C10099BC1D /* ViewController.swift */; };
 		8C6285B12163A1C10099BC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C6285AF2163A1C10099BC1D /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		7350B6CF216C7E3F004C4B89 /* .tailor.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .tailor.yml; sourceTree = "<group>"; };
+		73CE0155216E22610088D8EE /* iconKnobRed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iconKnobRed.pdf; sourceTree = "<group>"; };
+		73CE0156216E22610088D8EE /* iconMinusRed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iconMinusRed.pdf; sourceTree = "<group>"; };
+		73CE0157216E22610088D8EE /* iconPlusRed.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iconPlusRed.pdf; sourceTree = "<group>"; };
 		8C6285A82163A1C10099BC1D /* SSCircularSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCircularSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C6285AB2163A1C10099BC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C6285AD2163A1C10099BC1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +56,16 @@
 				8C6285AF2163A1C10099BC1D /* Main.storyboard */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		73CE0152216E21FA0088D8EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73CE0155216E22610088D8EE /* iconKnobRed.pdf */,
+				73CE0156216E22610088D8EE /* iconMinusRed.pdf */,
+				73CE0157216E22610088D8EE /* iconPlusRed.pdf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		8C62859F2163A1C10099BC1D = {
@@ -85,6 +101,7 @@
 			children = (
 				8C6285BE2163A1F40099BC1D /* SSCircularRingSlider.swift */,
 				8C6285C42163A46D0099BC1D /* Extentions.swift */,
+				73CE0152216E21FA0088D8EE /* Resources */,
 			);
 			path = SSCircularRingSlider;
 			sourceTree = "<group>";
@@ -149,9 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7350B6D0216C7E3F004C4B89 /* .tailor.yml in Resources */,
+				73CE0158216E22610088D8EE /* iconKnobRed.pdf in Resources */,
 				8C6285B62163A1C20099BC1D /* LaunchScreen.storyboard in Resources */,
 				8C6285B32163A1C20099BC1D /* Assets.xcassets in Resources */,
+				73CE0159216E22610088D8EE /* iconMinusRed.pdf in Resources */,
 				8C6285B12163A1C10099BC1D /* Main.storyboard in Resources */,
+				73CE015A216E22610088D8EE /* iconPlusRed.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

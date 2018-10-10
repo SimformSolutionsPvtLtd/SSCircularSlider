@@ -39,8 +39,7 @@ class ViewController: UIViewController {
         circularRingSlider.setEndPointsImage(startPointImage: UIImage(named: "iconMinusRed")!, endPointImage: UIImage(named: "iconPlusRed")!)
         circularRingSlider.setProgressLayerColor(colors: [UIColor.red.cgColor, UIColor.red.cgColor])
         circularRingSlider.setKnobOfSlider(knobSize: 40, knonbImage: UIImage(named: "iconKnobRed")!)
-        circularRingSlider.outerRingWidth = 18
-        circularRingSlider.innerRingWidth = 18
+        circularRingSlider.setCircularRingWidth(innerRingWidth: 18, outerRingWidth: 18)
     }
 
 }

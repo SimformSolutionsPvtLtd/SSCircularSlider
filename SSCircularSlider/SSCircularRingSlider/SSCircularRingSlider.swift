@@ -667,4 +667,15 @@ extension SSCircularRingSlider {
         return nil
     }
     
+    /// This function sets width of inner circular ring and outer circular ring width
+    ///
+    /// - Parameters:
+    ///   - innerRingWidth: inner ring width
+    ///   - outerRingWidth: outer ring width
+    public func setCircularRingWidth(innerRingWidth: CGFloat, outerRingWidth: CGFloat) {
+        self.innerRingWidth = innerRingWidth
+        self.outerRingWidth = outerRingWidth
+        initialSetUp()
+    }
+    
 }
