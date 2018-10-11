@@ -76,7 +76,7 @@ A simple and powerful circular ring slider, written in swift and fully customiza
         
         circularRingSlider.setEndPointsImage(startPointImage: iconMinus, endPointImage: iconPlus)
         
-    **SetProgressLayerColor**
+    **SetProgressLayerColor(Gradient Colors)**
         
         circularRingSlider.setProgressLayerColor(colors: [UIColor.red.cgColor, UIColor.red.cgColor])
         
