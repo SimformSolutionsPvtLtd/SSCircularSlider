@@ -133,9 +133,15 @@ open class SSCircularRingSlider: UIView {
     fileprivate func initialSetUp() {
 
         let bundle = Bundle(for: self.classForCoder)
-        knonbImage = UIImage(named: "iconKnobRed", in: bundle, compatibleWith: nil)
-        startPointImage = UIImage(named: "iconMinusRed", in: bundle, compatibleWith: nil)
-        endPointImage = UIImage(named: "iconPlusRed", in: bundle, compatibleWith: nil)
+        if self.knonbImage == nil {
+            knonbImage = UIImage(named: "iconKnobRed", in: bundle, compatibleWith: nil)
+        }
+        if self.startPointImage  == nil {
+            startPointImage = UIImage(named: "iconMinusRed", in: bundle, compatibleWith: nil)
+        }
+        if self.endPointImage == nil {
+            endPointImage = UIImage(named: "iconPlusRed", in: bundle, compatibleWith: nil)
+        }
         
         width = bounds.width - max(innerRingWidth, outerRingWidth)
         height = bounds.height - max(innerRingWidth, outerRingWidth)
