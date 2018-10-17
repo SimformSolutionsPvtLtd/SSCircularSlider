@@ -14,7 +14,7 @@ A simple and powerful circular ring slider, written in swift and fully customiza
 # Features!
   - Circular ring slider
   - Customizable slider color
-  - Costmize slider knob
+  - Customizable slider knob
   - Customizable sider end point buttons
   - Adjust slider by editing center label
   - Dynammic values of slider
