@@ -24,7 +24,7 @@ open class SSCircularRingSlider: UIView {
         didSet {
             // should not less than minimum value.
             if initialValue < minValue {
-                fatalError("Initial value should not be less than minimum value.")
+                preconditionFailure("Initial value should not be less than minimum value.")
             }
         }
     }
@@ -37,7 +37,7 @@ open class SSCircularRingSlider: UIView {
     var gradientColors: [CGColor] = [UIColor.red.cgColor, UIColor.red.cgColor] {
         didSet {
             if gradientColors.count < 2 {
-                fatalError("Gradient layer needs two or more colors.")
+                preconditionFailure("Gradient layer needs two or more colors.")
             }
         }
     }
@@ -212,7 +212,7 @@ open class SSCircularRingSlider: UIView {
         innerRingShape.strokeColor = self.innerCircleColor
         innerRingShape.lineWidth = innerRingWidth
         innerRingShape.strokeEnd = 1
-        innerRingShape.lineCap = kCALineCapButt
+        innerRingShape.lineCap = CAShapeLayerLineCap.butt
         self.layer.addSublayer(innerRingShape)
     }
     
