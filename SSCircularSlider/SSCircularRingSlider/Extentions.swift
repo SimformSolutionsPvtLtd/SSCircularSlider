@@ -81,7 +81,7 @@ extension UIView {
     
     func getGradientLayerOf(frame: CGRect, colors: [CGColor]) -> CAGradientLayer {
         let gradientLayer = CAGradientLayer()
-        gradientLayer.type = kCAGradientLayerAxial
+        gradientLayer.type = CAGradientLayerType.axial
         gradientLayer.frame = frame
         gradientLayer.colors = colors
         return gradientLayer

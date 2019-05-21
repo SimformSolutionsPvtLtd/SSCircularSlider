@@ -110,7 +110,7 @@
 				8C6285A42163A1C10099BC1D /* Sources */,
 				8C6285A52163A1C10099BC1D /* Frameworks */,
 				8C6285A62163A1C10099BC1D /* Resources */,
-				7350B6CC216C78BA004C4B89 /* ShellScript */,
+				7350B6CC216C78BA004C4B89 /* Tailor */,
 			);
 			buildRules = (
 			);
@@ -133,6 +133,7 @@
 				TargetAttributes = {
 					8C6285A72163A1C10099BC1D = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -170,18 +171,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7350B6CC216C78BA004C4B89 /* ShellScript */ = {
+		7350B6CC216C78BA004C4B89 /* Tailor */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = Tailor;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" = \"Analyze\" ]; then\nif hash tailor 2>/dev/null; then\necho \"tailer exe\"\ntailor\nelse\necho \"warning: Please install Tailor from https://tailor.sh\"\nfi\nfi";
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Analyze\" ]; then\nif hash tailor 2>/dev/null; then\necho \"tailer exe\"\ntailor\nelse\necho \"warning: Please install Tailor from https://tailor.sh\"\nfi\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -347,7 +349,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSCircularSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -366,7 +368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSCircularSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
