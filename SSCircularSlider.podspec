@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/simformsolutions/SSCircularSlider.git", :tag => "#{s.version}" }
 
-  s.source_files  = 'SSCircularSlider/SSCircularRingSlider/**/*.{h,m,swift}'
-  s.resources = ['SSCircularSlider/SSCircularRingSlider/Media/Media.xcassets']
-  s.resource_bundles = { 'SSCircularSlider' => [ 'SSCircularSlider/SSCircularRingSlider/Media/Media.xcassets'] }
+  s.source_files  = 'Sources/SSCircularSlider/SSCircularRingSlider/**/*.{h,m,swift}'
+  s.resources = ['Sources/SSCircularSlider/SSCircularRingSlider/Media/Media.xcassets']
+  s.resource_bundles = { 'SSCircularSlider' => [ 'Sources/SSCircularSlider/SSCircularRingSlider/Media/Media.xcassets'] }
   s.documentation_url = 'docs/index.html'
 
 end
